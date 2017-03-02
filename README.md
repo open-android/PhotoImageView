@@ -6,6 +6,7 @@
 
 # 效果图
 
+![](http://upload-images.jianshu.io/upload_images/4037105-6cda332626d46f8e.gif?imageMogr2/auto-orient/strip)
 
 
 #使用
@@ -38,23 +39,6 @@ photoView.disenable();
 Info info = photoView.getInfo();
 // 从普通的ImageView中获取Info
 Info info = PhotoView.getImageViewInfo(ImageView);
-// 从一张图片信息变化到现在的图片，用于图片点击后放大浏览，具体使用可以参照demo的使用
-photoView.animaFrom(info);
-// 从现在的图片变化到所给定的图片信息，用于图片放大后点击缩小到原来的位置，具体使用可以参照demo的使用
-photoView.animaTo(info,new Runnable() {
-       @Override
-       public void run() {
-           //动画完成监听
-       }
-   });
-// 获取/设置 动画持续时间
-photoView.setAnimaDuring(int during);
-int d = photoView.getAnimaDuring();
-// 获取/设置 最大缩放倍数
-photoView.setMaxScale(float maxScale);
-float maxScale = photoView.getMaxScale();
-// 设置动画的插入器
-photoView.setInterpolator(Interpolator interpolator);
 ```
 
 
