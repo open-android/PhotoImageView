@@ -6,12 +6,12 @@
 
 * 欢迎关注微信公众号
 
-![](http://upload-images.jianshu.io/upload_images/4037105-23b6b42ed91e9d64.gif?imageMogr2/auto-orient/strip)
+![](http://upload-images.jianshu.io/upload_images/4037105-54ace4e4cb94c547.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 # 效果图
 
-![](http://upload-images.jianshu.io/upload_images/4037105-6cda332626d46f8e.gif?imageMogr2/auto-orient/strip)
+![](http://upload-images.jianshu.io/upload_images/4037105-23b6b42ed91e9d64.gif?imageMogr2/auto-orient/strip)
 
 
 #使用
