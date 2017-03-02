@@ -2,15 +2,11 @@
 
 和普通的ImageView一样的使用方法
 
-如使用过程中有任何bug，意见或建议，可邮件给我 bmme@vip.qq.com
+
 
 # 效果图
-![PhotoView](./demo2.gif) ![PhotoView](./demo1.gif)
 
-#注意
-由于facebook的Fresco图片加载组件所加载出来的drawable图片并非真实的drawable,无法直接获取图片真实宽高,也无法直接响应ImageMatrix的变换，
-且根据Fresco文档的介绍,在后续的版本中,DraweeView会直接继承自View,所有暂不考虑支持Fresco。
-对于其他第三方图片加载库如Glide,ImageLoader,xUtils都是支持的
+
 
 #使用
 1.Gradle添加依赖 (推荐)
@@ -19,7 +15,7 @@ dependencies {
     compile 'com.bm.photoview:library:1.4.1'
 }
 ```
-(或者也可以将项目下载下来，将Info.java和PhotoView.java两个文件拷贝到你的项目中，不推荐)
+
 
 2.xml添加
 ```xml
@@ -61,25 +57,4 @@ float maxScale = photoView.getMaxScale();
 photoView.setInterpolator(Interpolator interpolator);
 ```
 
-# 版本
 
-v1.4.0
-   * 增加对普通ImageView的支持，可通过PhotoView的静态方法getImageViewInfo(ImageView)从一个普通的ImageView中获取Info，参照ImageViewActivity
-   * 添加长按事件的监听，setOnLongClickListener()
-   * 提高图片缩放到屏幕边缘的情况下滑动的流畅性
-   * 新增get/setAnimaDuring() get/setMaxScale 获取设置动画的持续时间和图片最大缩放倍数
-   * 通过setInterpolator可设置动画插入器
-   
-v1.3.6
-   * 增加图片的旋转功能
-   * 版本号命名改变
-
-v2.0.7
-   * 宽高属性可以设置为wrap_content，添加对adjustViewBounds属性的支持
-   * 修复某些情况下会闪动
-   * 增加对ScaleType.FIT_START,FIT_END对animaFrom的支持
-
-v2.0.0  
-   * 添加animaTo,animaFrom方法，支持图片点击放大缩小浏览功能
-   * 添加enable()和disenable() 打开和关闭触摸缩放方法，默认打开 (当普通ImageView使用的时候建议关闭触摸缩放功能)
-   * 支持所有ScaleType属性
