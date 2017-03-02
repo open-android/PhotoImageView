@@ -12,14 +12,14 @@
 1.Gradle添加依赖 (推荐)
 ```gradle
 dependencies {
-    compile 'com.bm.photoview:library:1.4.1'
+     compile 'com.github.open-android:PhotoImageView:0.1.0'
 }
 ```
 
 
 2.xml添加
 ```xml
- <com.bm.library.PhotoView
+ <com.itheima.library.PhotoView
      android:id="@+id/img"
      android:layout_width="match_parent"
      android:layout_height="match_parent"
