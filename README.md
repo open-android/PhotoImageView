@@ -19,8 +19,17 @@
 
 
 
-#使用
-1.Gradle添加依赖 (推荐)
+### 1. 在你的 project 的 build.gradle 中加入
+```gradle
+allprojects {
+    repositories {
+
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+### 2. Gradle添加依赖 (推荐)
 ```gradle
 dependencies {
      compile 'com.github.open-android:PhotoImageView:0.1.0'
@@ -28,7 +37,7 @@ dependencies {
 ```
 
 
-2.xml添加
+### 3. xml添加
 ```xml
  <com.itheima.library.PhotoView
      android:id="@+id/img"
@@ -38,7 +47,7 @@ dependencies {
      android:src="@drawable/bitmap1" />
 ```
 
-3.java代码
+### 4. java代码
 ```java
 PhotoView photoView = (PhotoView) findViewById(R.id.img);
 // 启用图片缩放功能
