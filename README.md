@@ -15,7 +15,7 @@
 
 # 效果图
 
-![](http://upload-images.jianshu.io/upload_images/4037105-23b6b42ed91e9d64.gif?imageMogr2/auto-orient/strip)
+![](http://upload-images.jianshu.io/upload_images/4037105-a677f501448fb1a6.gif?imageMogr2/auto-orient/strip)
 
 
 
