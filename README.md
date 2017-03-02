@@ -6,7 +6,7 @@
 
 * 欢迎关注微信公众号
 
-![](http://upload-images.jianshu.io/upload_images/4037105-8f737b5104dd0b5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/4037105-23b6b42ed91e9d64.gif?imageMogr2/auto-orient/strip)
 
 
 # 效果图
